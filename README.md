@@ -37,7 +37,7 @@ jobs:
       - name: checkout code
         uses: actions/checkout@master
       - name: k3s
-        uses: yellowmegaman/k3s-gha@master
+        uses: insolar/k3s-gha@master
         with:
           custom_registry: true
       - name: try to use kubeconfig
